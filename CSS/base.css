@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     min-height: 100vh;
+    max-width: 1980;
+    width: 100%;
     background: #031321;
     font-family: consolas;
 } 
@@ -14,23 +16,28 @@
 @media(max-width: 1200px) {
     .body {
         max-width: 992px;
+       
+        
     }
 }
 
 @media(max-width: 992px) {
     .body {
         max-width: 720px;
+      
     }
 }
 
 @media(max-width: 720px) {
     .body {
         max-width: 576px;
+       
     }
 }
 
 @media(max-width: 576px) {
     .body {
         max-width: 420px;
+      
     }
 }
